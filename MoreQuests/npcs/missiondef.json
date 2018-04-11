@@ -1,0 +1,115 @@
+[
+  {
+    "id": "kration",
+    "type": "mission_definition",
+    "name": "Cook 20 smoked meat",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 50000,
+	"item": "meat_smoked",
+    "count": 20,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": "thankful",
+    "dialogue": {
+      "describe": "I need help.",
+      "offer": "Screw this cataclysm! I'm usual web-designer, I have no preparations for situations like this, and now I have to sleep fasting. Still, as weather allow me I can find berries and nuts, but I have no skill even to catch a squirrel! I have no idea how to survive winter. But you looking very reliable to help me.",
+      "accepted": "You're helping me so much! I thinkg, that 20 portions of smoked meat will be solid K-ration in cause if I will ran out of food.",
+      "rejected": "But please! I need your help so much!",
+      "advice": "Just catch some not-poison animal and cook it on smoker. My grandpa did it this way.",
+      "inquire": "Do you get it?",
+      "success": "Thank you! You saved my life.",
+      "success_lie": "ITS A BUG, YOU SHOULDNT SEE THIS. TELL SOVIERRUSSIA ABOUT IT",
+      "failure": "Oh... I'll have a problems in winter."
+    }
+	},
+	{
+    "id": "qqmanitsjohny",
+    "type": "mission_definition",
+    "name": "Find 10 thorazine",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 50000,
+	"item": "thorazine",
+    "count": 10,
+    "origins": [ "ORIGIN_ANY_NPC" ],
+	"end": "thankful",
+    "dialogue": {
+      "describe": "I need help.",
+      "offer": "Oh lord! Speaking bush! Is that you talking with me God? Oh, it's just you, survivor. Don't pay any attention, something always seems to me. Before cataclysm I had a prescription for medicine that keeps my mind clear. But now I can't understand - is that beast realy want's to rip me apart or it's just my imagination. If I'll get to the town with it - I'm done. You'll help me, ain't you?",
+      "accepted": "Great! Medicine that was prescripted to me is thorazine. You're saving my life, pal.",
+      "rejected": "Ok, I'll ask for help this guy. Fuck, he disappeared.",
+      "advice": "You can find it in pharmacy or hospital.",
+      "inquire": "Are you real?",
+      "success": "Thank you! If you wouldn't disappear when I take a pill - i'll offer you a reward.",
+      "success_lie": "ITS A BUG, YOU SHOULDNT SEE THIS. TELL SOVIERRUSSIA ABOUT IT",
+      "failure": "If there is nowhere thorazine left, I'm fucked. Thanks for trying anyway."
+    }
+	},
+	{
+    "id": "mp3playertctc",
+    "type": "mission_definition",
+    "name": "Find mp3 player",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 50000,
+	"item": "mp3",
+    "count": 1,
+    "origins": [ "ORIGIN_ANY_NPC" ],
+	"followup": "mp3jakajakadan",
+    "dialogue": {
+      "describe": "Can I get a help?",
+      "offer": "Tell me, what do you miss most of all? I tell you what I miss - rehearsals of my musical group. Getting into our den and let's roll. Yea, music, I need it. Although I'ma true mothafoka I have not so much choice, right? SO. Can you get a mp3 player with any music on it for me?",
+      "accepted": "This is AWESOME, dude! St. Ozzy bless you!",
+      "rejected": "Fucking shiet, man.",
+      "advice": "Try to find it in electronics store or something.",
+      "inquire": "How is it?",
+      "success": "Yes! Yes! Thank you mate! Woooho, there is a lot of cool stuff. Also!",
+      "success_lie": "ITS A BUG, YOU SHOULDNT SEE THIS. TELL SOVIERRUSSIA ABOUT IT",
+      "failure": "Ooooh it SUCK ASS! Shit!"
+    }
+	},
+	{
+    "id": "mp3jakajakadan",
+    "type": "mission_definition",
+    "name": "Find acoustic guitar",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 3,
+    "value": 50000,
+	"item": "acoustic_guitar",
+    "count": 1,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "Yo, mate! I want ask you for help.",
+      "offer": "Do you know what's better than mp3 player music? Real one! When you stays on a cliff and makin 'jaka jaka dan dan jaka dan'! Yea, that's great. Anyway, can you get me a guitar?",
+      "accepted": "Ooooh shit man you're awesome! You're like an angel for me!",
+      "rejected": "Cmon, buddy, you don't even tried!",
+      "advice": "Try to find it in musical store.",
+      "inquire": "How is it?",
+      "success": "Bloody hell! You're the best, mate!",
+      "success_lie": "ITS A BUG, YOU SHOULDNT SEE THIS. TELL SOVIERRUSSIA ABOUT IT",
+      "failure": "You know? Fuck it, I still have a player"
+    }
+	},
+	{
+    "id": "neohippie",
+    "type": "mission_definition",
+    "name": "Find 5 cannabis seeds",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 50000,
+	"item": "seed_weed",
+    "count": 5,
+    "origins": [ "ORIGIN_ANY_NPC" ],
+    "dialogue": {
+      "describe": "Peace, I wanna ask you for somthng.",
+      "offer": "I have a problem - my raves are sucks now! There is tons of rot-asses on da streets and this shit. And tha only way to get dope in there. But amma an old pacific, I'll got kicked in there. Can you bring me some seeds to make a plot on my camping site - it will be oooooutstanding!",
+      "accepted": "Peace, bro! I knew that you'll help a shaggy.",
+      "rejected": "Pleas, bro. Maybe later?",
+      "advice": "I don't know, try to find it in a basments or something.",
+      "inquire": "Did you get a seeds?",
+      "success": "Cooooool, you're my superman, sir, milord and same shit.",
+      "success_lie": "ITS A BUG, YOU SHOULDNT SEE THIS. TELL SOVIERRUSSIA ABOUT IT",
+      "failure": "Craaap, it sucks."
+    }
+	}
+  ]

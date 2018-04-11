@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "morequests",
+    "name": "More quests",
+    "authors": [ "SovietRussia", "community" ],
+    "description": "New quests for random NPC",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
